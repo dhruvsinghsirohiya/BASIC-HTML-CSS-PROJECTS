@@ -1,0 +1,410 @@
+@media only screen and (min-width:0px) and (max-width:576px) {
+    header{
+        padding: 10px 0px;
+    }
+
+    .nav-left img{
+        width: 30px;
+    }
+    .nav-left h2{
+        color: #fbde4c;
+        font-size: 18px;
+    }
+    .nav-bars{
+        display: block !important;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .nav-right ul{
+        display: none;
+
+    }
+
+    main section:nth-child(1){
+        padding: 1.2rem 0px;
+    }
+    
+  
+    
+    main section:nth-child(1) h1 , main section:nth-child(1) h2{
+        font-size: 25px;
+    }
+    main section:nth-child(1) button{
+        margin: 10px 0px;
+        padding: 10px 16px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+
+    .hero-img{
+        margin: 20px 0px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    main section:nth-child(1) ul{
+        margin: 10px 0px;
+        font-size: 16px;
+    display: block;
+
+    }
+    main section:nth-child(1) ul li{
+        padding: 10px 0px ;
+    }
+
+    .star-main img{
+        width: 150px;
+    }
+    .features {
+        display: block;
+        margin: 20px 0px ;
+    }
+    .feature {
+        margin: 20px 0px;
+    }
+    .features-head{
+        font-size: 25px;
+    }
+    .feature h2 {
+        font-size: 18px;
+    }
+    .trydemo-btn{
+        margin: 5px 0px;
+        padding: 10px 16px;
+        font-size: 14px;
+        border-radius: 5px;
+        
+    }
+
+    .price-head{
+        color: #fbde4c;
+        padding: 4px 0px;
+    }
+    .price-title{
+        font-size: 25px;
+        width: 80%;
+        padding: 15px 0px;
+    }
+    .price-para{
+        font-size: 15px;
+    padding: 8px 0px;
+    }
+    .price-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+
+    .price-con{
+        
+        padding: 10px 20px;
+        border: 1px rgb(39, 39, 39) solid;
+        border-radius: 20px;
+    }
+    
+    .price-con h4{
+        font-size: 28px;
+        font-weight: 600;
+        margin: 10px 0px;
+    }
+    .price-con h1{
+        font-size: 45px;
+        margin: 10px 0px ;
+    }
+    .price-con p{
+        font-size: 16px;
+    }
+    
+    .price-con button{
+        margin-top: 15px;
+       padding: 13px 0px;
+        font-size: 16px;
+        width: 200px;
+    }
+    .price-con button:hover{
+        transition: 900ms;
+        background-color: #fbde4c;
+        color: black;
+        border: 2px solid black;
+    }
+    
+    .price-con ul {
+        padding: 0px 20px;
+    }
+    
+    .price-con ul li{
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+
+    footer{
+        background: transparent;
+    }
+    .footer-main{
+    width: 90%;
+    padding: 10px;
+    margin-top: 40px;
+    margin: auto;
+    display: block;
+}
+.footer-con{
+    width: 100%;
+    
+}
+
+
+}
+
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    header{
+        padding: 12px 0px;
+    }
+
+    .nav-left img{
+        width: 40px;
+    }
+    .nav-left h2{
+        color: #fbde4c;
+        font-size: 22px;
+    }
+    .nav-bars{
+        display: block !important;
+        color: white;
+        font-size: 23px;
+        cursor: pointer;
+    }
+    .nav-right ul{
+        display: none;
+
+    }
+    main section:nth-child(1){
+        padding: 1.3rem 0px;
+    }
+    
+  
+    
+    main section:nth-child(1) h1 , main section:nth-child(1) h2{
+        font-size: 35px;
+    }
+    main section:nth-child(1) button{
+        font-size: 16px;
+    }
+
+    .hero-img{
+        margin: 20px 0px;
+        width: 90%;
+        border-radius: 10px;
+    }
+    main section:nth-child(1) ul{
+        margin: 10px 0px;
+        font-size: 20px;
+    display: block;
+
+    }
+    main section:nth-child(1) ul li{
+        padding: 10px 0px ;
+    }
+    .features {
+        display: block;
+        margin: 20px 0px ;
+    }
+    .feature {
+margin: 40px 0px;
+    }
+    .features-head{
+        font-size: 28px;
+    }
+    .feature h2 {
+        font-size: 20px;
+    }
+    .trydemo-btn{
+        font-size: 16px;
+        
+    }
+
+    .price-head{
+        color: #fbde4c;
+        padding: 8px 0px;
+    }
+    .price-title{
+        font-size: 30px;
+        width: 80%;
+        padding: 15px 0px;
+    }
+    .price-para{
+    padding: 8px 0px;
+    }
+    .price-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+
+    .price-con{
+        
+        padding: 10px 20px;
+        border: 1px rgb(39, 39, 39) solid;
+        border-radius: 20px;
+    }
+    
+    .price-con h4{
+        font-size: 28px;
+        font-weight: 600;
+        margin: 10px 0px;
+    }
+    .price-con h1{
+        font-size: 45px;
+        margin: 10px 0px ;
+    }
+    .price-con p{
+        font-size: 16px;
+    }
+    
+    .price-con button{
+        margin-top: 15px;
+       padding: 13px 0px;
+        font-size: 16px;
+        width: 200px;
+    }
+    .price-con button:hover{
+        transition: 900ms;
+        background-color: #fbde4c;
+        color: black;
+        border: 2px solid black;
+    }
+    
+    .price-con ul {
+        padding: 0px 20px;
+    }
+    
+    .price-con ul li{
+        font-size: 18px;
+        padding: 5px 0px;
+    }
+
+    footer{
+        background: transparent;
+    }
+    .footer-main{
+    width: 90%;
+    margin-top: 40px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.footer-con{
+    width: 50%;
+    
+}
+    
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .nav-right ul {
+     gap: 1.8rem;
+     }
+
+     main section:nth-child(1){
+        padding: 1.8rem 0px;
+    }
+    
+  
+    
+    main section:nth-child(1) h1 , main section:nth-child(1) h2{
+        font-size: 40px;
+    }
+    main section:nth-child(1) button{
+        font-size: 18px;
+    }
+
+    .features-head{
+        font-size: 38px;
+    }
+    .feature h2 {
+        font-size: 20px;
+    }
+    .trydemo-btn{
+        font-size: 18px;
+        
+    }
+
+    .price-head{
+        color: #fbde4c;
+        padding: 8px 0px;
+    }
+    .price-title{
+        font-size: 38px;
+        width: 80%;
+        padding: 15px 0px;
+    }
+    .price-para{
+    padding: 8px 0px;
+    }
+    .price-main{
+        width: 95%;
+        display: flex;
+        margin: 40px 5px;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .price-con{
+        width: 30%;
+        padding: 10px 20px;
+    }
+
+    .price-con h4{
+        font-size: 20px;
+    }
+    .price-con h1{
+        font-size: 40px;
+        margin: 10px 0px ;
+    }
+    .price-con p{
+        font-size: 16px;
+    }
+    
+    .price-con button{
+        margin: 15px 0px;
+       width: 100%;
+       padding: 10px 0px;
+        font-size: 16px;
+    }
+    .price-con button:hover{
+        transition: 900ms;
+        background-color: #fbde4c;
+        color: black;
+        border: 2px solid black;
+    }
+    
+    .price-con ul {
+        padding: 0px 30px;
+    }
+    
+    .price-con ul li{
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+
+
+    footer{
+        background: transparent;
+    }
+    .footer-main{
+    width: 90%;
+    margin-top: 40px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.footer-con{
+    width: 50%;
+    
+}
+    
+}
