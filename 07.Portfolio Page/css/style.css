@@ -1,0 +1,176 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #faf1f1;
+   
+}
+
+header {
+    background: #120e38;
+    padding: 10px 0px;
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    
+}
+.nav-bars{
+    display: none;
+}
+
+.logo-set{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+
+}
+
+.logo-set img{
+    width: 50px;
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center ;
+    gap: 40px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding:  5px;
+    color: rgb(63, 63, 63);
+}
+
+.head-text{
+    margin: 15px 0px;
+    color: black;
+    background: rgb(182, 182, 182);
+    text-align: center;
+    padding: 3px 0px;
+    
+}
+
+.skill-data{
+    display: grid;
+    padding: 10px 20px;
+    margin: auto;
+    max-width: 100%;
+    grid-template-columns: 50% 50%;
+}
+.skill-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.skill-box ul{
+    margin-top: 10px;
+    color: #888;
+    font-size: 14px;
+}
+.skill-box ul li{
+    list-style: none;
+}
+
+.project-main{
+    margin: auto;
+    width: 100%;
+
+}
+.project{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 20px 0px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-box {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-box .head-text {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#contact form button {
+    background: #120e38;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact form button:hover {
+    background: #100953;
+}
+
+#contact p {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+footer {
+    background: #120e38;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+}

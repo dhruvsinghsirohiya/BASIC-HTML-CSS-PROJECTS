@@ -1,0 +1,273 @@
+@media only screen and (max-width: 375px){
+
+    nav{
+        padding: 0px 5px;
+    }
+ 
+    nav img{
+        width: 100px;
+    }
+    nav ul li:last-child{
+    background: #ff3f6c;
+    padding: 5px 8px;
+        font-size: 14px;
+        border-radius: 2px;
+    }
+    nav ul li:nth-child(3){
+        display: none ;  
+}
+nav ul li:nth-child(2){
+    display: none ;  
+}
+nav ul li:nth-child(1){
+    display: none ;  
+}
+
+.home-banner{
+    height: 40vh;
+}
+.home-banner-overlay{
+    font-size: 1.2rem;
+}
+
+.home-prod-con{
+    padding: 10px 0px;
+}
+.home-prod-con h2{
+    padding: 30px 0px;
+}
+.all-products-main{
+    grid-template-columns: 50% 50%;
+}
+
+.product-card-main{
+    width: 160px;
+    padding: 6px 6px;
+    border-radius: 5px;
+}
+
+.product-img-con{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product-head{
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.product-price{
+    font-size: 12px;
+}
+.cart-btn{
+    margin: 5px 0px;
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+.load-more-btn{
+    padding: 8px 10px;
+    font-size: 14px;
+}
+.feature-head{
+    margin: 20px 0px;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.feature {
+    width: 85%;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 10px;
+}
+}
+
+
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+    
+    nav img{
+        width: 140px;
+    }
+    nav ul li:last-child{
+    background: #ff3f6c;
+    padding: 10px 16px;
+        font-size: 14px;
+    }
+    nav ul li:nth-child(3){
+        display: none ;  
+}
+nav ul li:nth-child(2){
+    display: none ;  
+}
+nav ul li:nth-child(1){
+    display: none ;  
+}
+
+.home-banner{
+    height: 50vh;
+}
+.home-banner-overlay{
+    font-size: 1.6rem;
+}
+
+.home-prod-con{
+    padding: 10px 0px;
+}
+.home-prod-con h2{
+    padding: 30px 0px;
+}
+.all-products-main{
+    grid-template-columns: 50% 50%;
+}
+
+.product-card-main{
+    width: 160px;
+    padding: 6px 6px;
+    border-radius: 5px;
+}
+
+.product-img-con{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product-head{
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.product-price{
+    font-size: 12px;
+}
+.cart-btn{
+    margin: 5px 0px;
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+.load-more-btn{
+    padding: 8px 10px;
+    font-size: 14px;
+}
+.feature-head{
+    margin: 20px 0px;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.feature {
+    width: 85%;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.subscribe form {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.subscribe input[type="email"] {
+    border-radius: 5px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px){
+    nav img{
+        width: 150px;
+    }
+    nav ul li:last-child{
+    background: #ff3f6c;
+    padding: 10px 20px;
+        font-size: 14px;
+    }
+    nav ul li:nth-child(3){
+        display: none ;  
+}
+nav ul li:nth-child(2){
+    display: none ;  
+}
+nav ul li:nth-child(1){
+    display: none ;  
+}
+
+.home-banner{
+    height: 60vh;
+}
+.home-banner-overlay{
+    font-size: 1.2rem;
+}
+
+.all-products-main{
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.product-card-main{
+    width: 170px;
+    padding: 6px 6px;
+    border-radius: 5px;
+}
+.subscribe form {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.subscribe input[type="email"] {
+    border-radius: 5px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .all-products-main{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+    .product-card-main{
+        width: 170px;
+        padding: 6px 6px;
+        border-radius: 5px;
+    }
+
+    .subscribe form {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    
+    .subscribe input[type="email"] {
+        border-radius: 5px;
+    }
+    
+    .subscribe button {
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    
+}

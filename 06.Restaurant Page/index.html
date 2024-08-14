@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodWeb: Partner of Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/1da2bcf95c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="w-[100%] sticky top-0 bg-gray-500 text-white font-semibold">
+    <div class="w-[95%] py-3 mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-6">
+        <h4 class="text-[25px]">FoodWeb</h4>
+      </div>
+      <i class="fa-solid fa-bars text-[20px] md:hidden block "></i>
+      <div class="md:block hidden">
+        <button class="bg-white me-2 text-black px-4 rounded-3xl py-2">
+          <i class="fa-solid fa-user pe-1"></i>
+          Log in
+        </button>
+        <button class="bg-black text-white px-4 rounded-3xl py-2">
+          Sign up
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div class="w-full flex py-6 justify-center gap-1 md:gap-4 items-center flex-col md:h-screen bg-cover topbanner"
+    style="background-image: url(images/topbanner.webp);">
+    <h1 class="text-2xl md:text-5xl lg:text-6xl font-bold text-center mt-16 md:mt-0">
+      Order delivery near you
+    </h1>
+    <div class="w-[80%] md:w-[40%]  flex rounded-3xl bg-white py-2 px-2 md:py-3 md:px-3 mt-8 md:mt-4">
+      <i class="fa-solid ps-2 fa-location-dot text-lg md:text-2xl"></i>
+      <input type="text" name="" class="ps-2 text-lg flex-grow outline-none" placeholder="Enter delivery address" id="">
+    </div>
+    <button class="bg-black text-white px-3 py-2 md:px-5 rounded-3xl md:py-3 font-semibold md:text-xl mt-4 md:mt-2">
+      Search here
+    </button>
+  </div>
+  <div class="w-[100%] ">
+    <div class="w-[95%] py-24 justify-between  md:flex mx-auto">
+      <div class="md:w-[30%] md:py-0 py-2">
+        <img src="images/pizza.jpg" alt="">
+        <h4 class="md:text-2xl text-lg font-semibold text-center">Feed your employees</h4>
+        <p class="text-center font-semibold underline">Create a business account</p>
+      </div>
+      <div class="md:w-[30%] md:py-0 py-2">
+        <img src="images/cooking.jpg" alt="">
+        <h4 class="md:text-2xl text-lg font-semibold text-center">Your restaurant, delivered</h4>
+        <p class="text-center font-semibold underline">Add your restaurant</p>
+      </div>
+      <div class="md:w-[30%] md:py-0 py-2">
+        <img src="images/del.jpg" alt="">
+        <h4 class="md:text-2xl text-lg font-semibold text-center">Deliver with FoodWeb</h4>
+        <p class="text-center font-semibold underline">Signup to Deliver</p>
+      </div>
+    </div>
+  </div>
+  <div class="w-[100%]">
+    <div class="w-[95%] py-16 mx-auto">
+      <h1 class="text-4xl font-bold pb-10">Cities near me</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.951046296!2d76.76356261822156!3d28.644287349748506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1708778509071!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <footer class="bg-gray-500 text-white py-6">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        <div class="text-center md:text-left mb-4 md:mb-0">
+            <h2 class="text-lg font-semibold">FoodWeb</h2>
+            <p class="mt-2">Connecting people with food</p>
+            <p class="mt-2">123 Food Street, City Name</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Email: info@example.com</p>
+        </div>
+        <nav class="text-center md:text-right">
+            <ul>
+                <li class="inline-block mb-2 md:mb-0 md:mr-4">
+                    <a href="#" class="hover:text-gray-400">Home</a>
+                </li>
+                <li class="inline-block mb-2 md:mb-0 md:mr-4">
+                    <a href="#" class="hover:text-gray-400">Menu</a>
+                </li>
+                <li class="inline-block mb-2 md:mb-0 md:mr-4">
+                    <a href="#" class="hover:text-gray-400">About Us</a>
+                </li>
+                <li class="inline-block mb-2 md:mb-0 md:mr-4">
+                    <a href="#" class="hover:text-gray-400">Locations</a>
+                </li>
+                <li class="inline-block">
+                    <a href="#" class="hover:text-gray-400">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="border-t border-gray-800 mt-4 pt-4 text-center">
+        <p>&copy; 2024 FoodWeb. All rights reserved.</p>
+        <p>Designed by YourDesignCompany</p>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

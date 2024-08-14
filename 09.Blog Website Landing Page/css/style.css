@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #11121c;
+    color: white;
+}
+
+header{
+    padding: 16px 0px;
+    background-color: #11121c;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-left img{
+    width: 50px;
+}
+.nav-left h2{
+    color: #fbde4c;
+}
+.nav-right ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2.5rem;
+}
+
+.nav-right ul li:hover{
+   color: #fbde4c;
+   transition: 8ms; 
+   transform: scale(1.1);
+}
+.nav-right ul li:last-child {
+border: 1px solid #fbde4c;
+padding: 13px 15px;
+color: #fbde4c;
+border-radius: 8px;
+}
+
+.nav-right ul li:last-child:hover{
+color: white;
+border: white solid 1px;
+transform: none;
+}
+
+.nav-bars{
+    display: none !important;
+}
+main{
+    padding: 25px 0px;
+}
+
+main section:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0px;
+}
+
+main section:nth-child(1) p{
+    font-size: 16px;
+    color: #fbde4c;
+    padding-bottom: 20px;
+}
+
+main section:nth-child(1) h1 , main section:nth-child(1) h2{
+    font-size: 46px;
+    padding-bottom: 10px;
+}
+main section:nth-child(1) button{
+    margin: 20px 0px;
+    padding: 16px 32px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #fbde4c;
+    border-radius: 10px;
+}
+main section:nth-child(1) button:hover {
+    transition: 900ms;
+    background-color: black;
+    color: yellow;
+    border: 2px solid white;
+}
+.hero-img{
+    margin: 30px 0px;
+    width: 70%;
+    border-radius: 20px;
+    filter: brightness(50%) contrast(150%);
+    border: 2px #fbde4c solid;
+}
+main section:nth-child(1) ul{
+    margin: 20px 0px;
+display: flex;
+gap: 3rem;
+}
+
+.star-main{
+    display: flex;
+    margin: 20px;
+    gap: 15px;
+}
+.star-main img{
+    width: 200px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 20px ;
+}
+.features-head{
+    color: white;
+    width: 70%;
+    margin: 40px auto;
+    font-size: 44px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.feature {
+    padding: 20px;
+}
+
+
+.feature div {
+    width: 40px;
+    border: 1px solid rgb(44, 44, 44);
+    background-color: #252525;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.feature div svg{
+    color: #fbde4c;
+}
+.feature h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.feature p {
+    font-size: 15px;
+    color: #999999;
+    margin-top: 5px;
+}
+.try-demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 10px;
+}
+.trydemo-btn{
+    margin: 20px 0px;
+    padding: 16px 32px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #fbde4c;
+    border-radius: 10px;
+}
+
+.trydemo-btn:hover {
+    transition: 900ms;
+    background-color: black;
+    color: yellow;
+    border: 2px solid white;
+}
+
+.pricing-section{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.price-main{
+    width: 90%;
+    display: flex;
+    margin: 40px 0px;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.price-head{
+    color: #fbde4c;
+    padding: 10px 0px;
+}
+.price-title{
+    font-size: 46px;
+    width: 60%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.price-para{
+color: #999;
+padding: 10px 0px;
+}
+.price-con{
+    padding: 20px 30px;
+    border: 1px rgb(39, 39, 39) solid;
+    border-radius: 20px;
+}
+
+.price-con h4{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.price-con h1{
+    font-size: 75px;
+    margin: 20px 0px ;
+}
+.price-con p{
+    font-size: 22px;
+}
+
+.price-con button{
+    margin: 22px 0px;
+   width: 100%;
+   padding: 18px 0px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #252525;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #fbde4c;
+    border-radius: 10px;
+}
+.price-con button:hover{
+    transition: 900ms;
+    background-color: #fbde4c;
+    color: black;
+    border: 2px solid black;
+}
+
+.price-con ul {
+    padding: 0px 30px;
+}
+
+.price-con ul li{
+    font-size: 18px;
+    padding: 15px 0px;
+}
+.footer-main{
+    width: 90%;
+    margin-top: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-con{
+    width: 20%;
+
+}
+
+.logo{
+display: flex;
+align-items: center;
+}
+.logo-img{
+    width: 50px;
+}
+.logo-name{
+    color: #fbde4c;
+}
+.footer-con p{
+    font-size: 14px;
+    padding: 10px 0px;
+    color: #999999;
+}
+footer{
+    background: url(../images//stripe-dark.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-con h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.footer-con ul li{
+    padding: 8px 0px;
+}
+
+.footer-con ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    color: #999999;
+}
+
+.footer-loc{
+    display: flex;
+    align-items: center;
+}
+
+.footer-loc input{
+    margin: 10px 0px;
+    padding: 8px 8px;
+    font-size: 14px;
+    background-color: transparent;
+    border: #252525 1px solid;
+    outline: none;
+    border-radius: 4px 0px 0px 4px; 
+}
+
+.footer-loc button{
+    background-color: #fbde4c;
+    font-size: 19px;
+    padding: 5px 8px;
+    border-radius: 0px 4px 4px 0px;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.social-icons i{
+    margin: 10px 0px;
+    padding-right: 15px;
+}
+.copy-right{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0px;
+    background-color: #0e0e14;
+}

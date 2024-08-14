@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/1da2bcf95c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="bg-gray-800 sticky top-0 w-full ">
+    <div class="w-[95%] flex justify-between items-center mx-auto">
+      <div class="flex items-center text-white">
+        <img src="images/logo.png" alt="" class="w-[60px] md:w-[75px] ">
+        <h3 class="md:text-xl text-md">Coder Dhruv</h3>
+      </div>
+      <ul class="hidden md:flex gap-6 px-1 items-center text-white">
+        <a class="cursor-pointer hover:underline" href="#home">Home</a>
+        <a class="cursor-pointer hover:underline" href="#about">About Me</a>
+        <a class="cursor-pointer hover:underline" href="#portfolio">Portfolio</a>
+        <a
+          class="px-3 py-1.5 border text-yellow-500 hover:text-white hover:border-yellow-500 cursor-pointer rounded-lg">
+          Contact</a>
+      </ul>
+      <i class="fa-solid block md:hidden fa-bars text-lg cursor-pointer text-white"></i>
+    </div>
+  </nav>
+  <section id="home" class="w-full h-screen md:h-[90vh]" style="background-image: url(images/topbanner.jpg);">
+    <div class="w-full h-full bg-black bg-opacity-50 flex justify-center items-center flex-col">
+      <img src="images/logo.png" alt="" class="w-[200px] md:w-[300px] mt-3">
+      <h1 class="text-white text-4xl md:text-5xl uppercase text-center font-sans">Hi! My Name is Dhruv.</h1>
+      <h3 class="text-center text-lg md:text-xl text-yellow-500 mt-2 md:mt-4">I like to design and code user-friendly websites. <br> Nice to meet you.</h3>
+      <button class="px-5 my-3 py-2 text-xl md:text-2xl border text-yellow-500 hover:text-white hover:border-yellow-500 cursor-pointer rounded-lg">Learn More</button>
+    </div>
+  </section>
+  
+  <section class="w-full bg-gray-300 py-10">
+    <div class="w-full md:w-[80%] mx-auto border-b-2 border-dashed border-yellow-500">
+      <h1 id="about" class="text-center text-5xl text-yellow-500 font-semibold pt-14 pb-8 uppercase">About</h1>
+      <div class="flex flex-col-reverse md:flex-row py-3 gap-6 justify-between">
+        <img src="images/profileicon.png" alt="" class="w-full md:w-[300px] h-[340px] md:order-2">
+        <div class="md:w-[60%]">
+          <h1 class="text-2xl text-gray-500">HELLO THERE! I'M A FRONT-END DEVELOPER AND ASPIRING UX DESIGNER BASED IN JAIPUR.</h1>
+          <p class="py-3 text-lg">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus optio debitis delectus quasi sed. Fugiat sunt, culpa vitae nisi numquam dolorum fugit distinctio perferendis accusamus modi id maxime, reprehenderit perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit ea fugit asperiores, illum labore vel quaerat inventore saepe corporis provident, eius in iusto error numquam dicta consequuntur quam. Magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dicta incidunt ipsa consequuntur ad tempore asperiores cumque repellat cum ut quis, quia quos quibusdam rerum velit quasi cupiditate porro quas. <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae velit unde officiis. Dolorem dicta quisquam ratione in velit iure modi consequuntur, aliquam provident quibusdam natus non nemo sapiente iste ab? <span class="text-yellow-600">follow me! :)</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="w-full bg-gray-300 py-10">
+    <div class="w-full md:w-[70%] mx-auto px-4">
+      <h1 class="uppercase text-4xl text-center">What I do</h1>
+      <div class="flex flex-wrap justify-center md:justify-between pt-20">
+        <div class="w-[45%] md:w-[20%] mb-10 md:mb-0">
+          <img src="images/rwd-icon.png" class="mx-auto p-2" alt="">
+          <p class="text-lg text-center text-gray-500">Responsive Web Design</p>
+        </div>
+        <div class="w-[45%] md:w-[20%] mb-10 md:mb-0">
+          <img src="images/dev-icon.png" class="mx-auto p-2" alt="">
+          <p class="text-lg text-center text-gray-500">Development</p>
+        </div>
+        <div class="w-[45%] md:w-[20%] mb-10 md:mb-0">
+          <img src="images/ui-ux-icon.png" class="mx-auto px-7 pb-2" alt="">
+          <p class="text-lg text-center text-gray-500">UI & UX Design</p>
+        </div>
+        <div class="w-[45%] md:w-[20%]">
+          <img src="images/star-icon.png" class="mx-auto px-7 pb-4" alt="">
+          <p class="text-lg text-center text-gray-500">Identity & Branding</p>
+        </div>
+      </div>
+      <div class="w-full flex justify-center py-10">
+        <button class="px-4 py-2.5 hover:bg-black hover:text-yellow-500 rounded-md bg-yellow-500 font-semibold">
+          View my Resume
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <section id="portfolio" class="container mx-auto py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Portfolio</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="https://static.pingcap.com/files/2021/11/bookmyshow-homepage.png" alt="Project 1"
+          class="w-full mb-4 rounded-md">
+        <h3 class="text-xl font-semibold mb-2">BookMyShow Clone </h3>
+        <p class="text-gray-700 mb-4">The BookMyShow Clone project is a web application designed to mimic the
+          functionalities of the popular entertainment ticketing platform, BookMyShow. This project aims to showcase my
+          skills in web development, particularly in front-end and back-end technologies.</p>
+        <a href="#"
+          class="inline-block px-4 py-2 bg-yellow-500 text-black rounded-md hover:bg-black font-semibold hover:text-yellow-500">View
+          Project</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="images/ishop.png" alt="Project 2" class="w-full mb-4 rounded-md">
+        <h3 class="text-xl font-semibold pt-3 mb-2">Ishop</h3>
+        <p class="text-gray-700 mb-4">iShop is a comprehensive e-commerce website designed to revolutionize your online
+          shopping experience. With an extensive range of products, intuitive user interface, and secure payment
+          options, iShop aims to become your go-to destination for all your shopping needs.</p>
+        <a href="#"
+          class="inline-block px-4 py-2 bg-yellow-500 text-black rounded-md hover:bg-black font-semibold hover:text-yellow-500">View
+          Project</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="images/currency.png" alt="Project 2" class="w-full mb-4 rounded-md">
+        <h3 class="text-xl font-semibold mb-2">Currency Converter</h3>
+        <p class="text-gray-700 mb-4">The Currency Converter website is a powerful online tool designed to simplify
+          currency conversions for users worldwide. With real-time exchange rates, intuitive user interface, and support
+          for multiple currencies, Currency Converter empowers users to effortlessly convert between different
+          currencies with accuracy and convenience.</p>
+        <a href="#"
+          class="inline-block px-4 py-2 bg-yellow-500 text-black rounded-md hover:bg-black font-semibold hover:text-yellow-500">View
+          Project</a>
+      </div>
+      <!-- Add more portfolio items as needed -->
+    </div>
+    <div class="w-[100%] flex justify-center py-10">
+      <button class="px-4 py-2.5 hover:bg-black hover:text-yellow-500 rounded-md bg-yellow-500 font-semibold">
+        Load More
+      </button>
+    </div>
+  </section>
+  <footer class="bg-gray-900 text-gray-300 py-6">
+    <div class="container mx-auto flex flex-wrap justify-between items-center">
+      <!-- Contact Information -->
+      <div class="flex items-center space-x-4">
+        <span>Contact: contact@example.com</span>
+        <span>Phone: +1234567890</span>
+      </div>
+      <!-- Navigation Menu -->
+      <nav class="flex items-center space-x-4">
+        <a href="#home" class="hover:text-white">Home</a>
+        <a href="#about" class="hover:text-white">About</a>
+        <a href="#portfolio" class="hover:text-white">Portfolio</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>

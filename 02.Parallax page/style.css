@@ -1,0 +1,28 @@
+html{
+  scroll-behavior: smooth;
+}
+.top-bg-banner{
+  background-image: url(./images/topbanner.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.app-bg-banner{
+  background-image: url(./images/appbanner.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.data-bg-banner{
+  background-image: url(./images/datascience.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
