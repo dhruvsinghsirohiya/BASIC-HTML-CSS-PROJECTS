@@ -212,6 +212,86 @@
         margin-top: 15px;
         font-weight: 300;
     }
+
+    .character{
+        display: block; 
+        padding: 1rem 0px; 
+    }
+    .character-left{
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 2rem 0px;
+    }
+
+    .character-head{
+        margin-top: 5px;
+        font-size: 25px;
+        border-bottom: #fc721e 2px solid;
+        padding-bottom: 5px;
+    }
+    
+    .character-left-main{
+        margin-top: 15px;
+        grid-template-columns: 40% 40%;
+        gap: 10%;
+    }
+
+    .character-left-con{
+        display: flex;
+        gap: 10px;
+    }
+
+    .character-left-con-r h1{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .character-left-con-r p{
+        margin-top: 8px;
+        color: #9f9f9f;
+        line-height: 1.1;
+        font-size: 14px;
+    }
+
+    .character-right{
+        width: 100%;
+    
+    }
+
+    #newsletter{
+        padding: 2.5rem 0px;
+    
+    }
+    
+    .newsletter div p{
+        font-size: 14px;
+    }
+    
+    .newsletter div h1{
+        font-size: 22px;
+    }
+
+    .newsletter-input-con input{
+        padding: 8px 5px;
+        font-size: 14px;
+    }
+
+    .newsletter-btn button{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .logo h1 {
+        font-size: 22px;
+    }
+
+    .footer-section h2 {
+        font-size: 16px;
+    }
+
+    .copyright-container{
+        font-size: 14px;
+    }
 }
 
 @media only screen and (min-width:1025px) and (max-width:1440px) {
