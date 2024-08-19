@@ -103,12 +103,6 @@ body{
     line-height: 0;
 }
 
-.awe-para{
-    color: white;
-    font-size: 20px;
-    letter-spacing: 2.5px;
-    margin-bottom: 4rem;
-}
 
 .services-con{
     padding: 2rem;
@@ -116,6 +110,10 @@ body{
     border-bottom: 2px #fdba28 solid;
 }
 
+.services-con:hover{
+    border-bottom: 2px #db0080 solid;
+    transition: border-bottom 0.6s ease;
+}
 .service-img{
     width: 35px;
     padding: 15px 0px;

@@ -6,6 +6,7 @@
     <title>Dhruv Singh Sirohiya</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
     <header>
@@ -22,11 +23,11 @@
         </div>
     </section>
     <section class="w-90 middle-bg  py-3 mx-auto">
-       <div class="my-services gap-5 d-flex mx-auto">
-        <div class="profile-summary-left  align-items-center flex-column">
+       <div class="my-services gap-5 d-lg-flex mx-auto">
+        <div class="profile-summary-left d-none d-lg-block">
             <img src="images/IMG_20240806_041852.jpg" class="summary-img" alt="">
         </div>
-        <div class="profile-summary-right px-2 d-flex  justify-content-center flex-column">
+        <div class="profile-summary-right px-2 mt-5 mt-lg-5 d-flex  justify-content-center flex-column">
             <p class="about-carrer-head fw-bold ">
                 ABOUT MY CARRER
             </p>
@@ -45,97 +46,162 @@
     <section id="awesome-services" class="w-90 mx-auto py-4 middle-bg">
         <div class="my-services mx-auto py-2">
             <p class="awe-ser">AWESOME SERVICES</p>
-            <p class="awe-para">I recommend you high quality services</p>
-            <div class="row gap-5">
-                <div class="col bg-black py-2 services-con">
-                  <img src="images/services/webdev.svg" class="service-img" alt="">
-                    <h5>Web Development</h5>
-                    <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+            <h6 class="text-white fw-bold letter-spacing-1 line-height-1-5">I recommend you high quality services</h6>
+            
+            <!-- Combined Row of Services -->
+            <div class="row mt-5 g-3">
+                <div class="col-12 col-sm-6 col-md-4 ">
+                    <div class=" bg-black mb-4 mb-lg-0 services-con">
+                        <img src="images/services/webdev.svg" class="service-img" alt="">
+                        <h5>Web Development</h5>
+                        <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                    </div>
                 </div>
-                <div class="col bg-black py-2 services-con">
-                    <img src="images/services/Ai.svg" class="service-img" alt="">
-                    <h5>Abobe Photoshop</h5>
-                    <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                <div class="col-12 col-sm-6 col-md-4 ">
+                    <div class="bg-black mb-4 mb-lg-0 services-con">
+                        <img src="images/services/Ai.svg" class="service-img" alt="">
+                        <h5>Adobe Photoshop</h5>
+                        <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                    </div>
+                </div>      
+                <div class="col-12 col-sm-6 col-md-4 ">
+                    <div class="bg-black py-2 mb-4 mb-lg-0 services-con">
+                        <img src="images/services/facebook.svg" class="service-img" alt="">
+                        <h5>Social Media</h5>
+                        <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                    </div>
                 </div>
-                <div class="col bg-black py-2 services-con">
-                    <img src="images/services/facebook.svg" class="service-img" alt="">
-                    <h5>Social Media</h5>
-                    <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                <div class="col-12 col-sm-6 col-md-4 ">
+                    <div class="bg-black py-2 mb-4 mb-lg-0 services-con">
+                        <img src="images/services/marketing.svg" class="service-img" alt="">
+                        <h5>Marketing</h5>
+                        <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row mt-5 gap-5">
-                <div class="col bg-black py-2 services-con">
-                  <img src="images/services/marketing.svg" class="service-img" alt="">
-                    <h5>Marketing</h5>
-                    <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                <div class="col-12 col-sm-6 col-md-4 ">
+                    <div class="bg-black py-2 mb-4 mb-lg-0 services-con">
+                        <img src="images/services/bridge.svg" class="service-img" alt="">
+                        <h5>Adobe Bridge</h5>
+                        <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                    </div>
                 </div>
-                <div class="col bg-black py-2 services-con">
-                    <img src="images/services/bridge.svg" class="service-img" alt="">
-                    <h5>Adobe Bridge</h5>
-                    <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                <div  class="col-12 col-sm-6 col-md-4 ">
+                    <div class=" bg-black py-2 mb-4 mb-lg-0 services-con">
+                        <img src="images/services/photography.svg" class="service-img" alt="">
+                        <h5>Photography</h5>
+                        <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
+                    </div>
                 </div>
-                <div class="col bg-black py-2 services-con">
-                    <img src="images/services/photography.svg" class="service-img" alt="">
-                    <h5>Photography</h5>
-                    <p>Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.</p>
-                </div>
+                
             </div>
         </div>
     </section>
+    
     <section class="w-90 mx-auto py-4 middle-bg">
         <div class="my-services mx-auto font-14 py-2">
             <p class="awe-ser">
                 CREATIVE PROJECTS
             </p>
-            <p class="awe-para">
+            <p class="text-white fw-bold letter-spacing-1 line-height-1-5">
                 Check out my latest projects
             </p>
-            <div class="row gap-5 text-white">
-                <div class="col bg-black py-4 text-center d-flex flex-column gap-3 services-con">
-                 <img src="https://picsum.photos/id/235/200/200" alt="">
-                 <span> Ishop : E-commerce Website</span>
+            <div class="row text-white">
+              <div  class="col-12 col-sm-6 col-md-4 ">
+                <div class="bg-black  mb-3  text-center services-con ">
+                    <img src="https://picsum.photos/id/235/200/200" alt="" class="w-100 mb-2">
+                    <div>Ishop : E-commerce Website</div>
                 </div>
-                <div class="col bg-black py-4 text-center d-flex flex-column gap-3 services-con">
-                    <img src="https://picsum.photos/id/234/200/200" alt="">  Maffy : Shoes Website
+              </div>
+              <div  class="col-12 col-sm-6 col-md-4 ">
+                <div class="bg-black  mb-3  text-center services-con ">
+                    <img src="https://picsum.photos/id/238/200/200" alt="" class="w-100 mb-2">
+                    <div>Myntra Clone : E-commerce Website</div>
                 </div>
-                <div class="col bg-black py-4 text-center d-flex flex-column gap-3 services-con">
-                    <img src="https://picsum.photos/id/238/200/200" alt="">
-                    Myntra Clone : E-commerce Website
-                 </div>
-            </div>
-            <div class="row mt-5 gap-5 text-white">
-                <div class="col bg-black py-4 text-center d-flex flex-column gap-3 services-con">
-                    <img src="https://picsum.photos/id/231/200/200" alt="">
-                    Ishop : E-commerce Website
+              </div>
+              <div  class="col-12 col-sm-6 col-md-4 ">
+                <div class="bg-black  mb-3  text-center services-con ">
+                    <img src="images/project/1.jpg" alt="" class="w-100 mb-2">
+                    <div>Maffy : Shoes Website</div>
                 </div>
-                <div class="col bg-black py-4 text-center d-flex flex-column gap-3 services-con">
-                    <img src="images/project/1.jpg" alt="">
-                    Maffy : Shoes Website
+              </div>
+              <div  class="col-12 col-sm-6 col-md-4 ">
+                <div class="bg-black  mb-3  text-center services-con ">
+                    <img src="https://picsum.photos/id/230/200/200" alt="" class="w-100 mb-2">
+                    <div>College Vidhya Clone</div>
                 </div>
-                <div class="col bg-black py-4 text-center d-flex flex-column gap-3 services-con">
-                    <img src="https://picsum.photos/id/232/200/200" alt="">
-                    Myntra Clone : E-commerce Website
-                 </div>
-            </div>               
+              </div>
+              <div  class="col-12 col-sm-6 col-md-4 ">
+                <div class="bg-black  mb-3  text-center services-con ">
+                    <img src="https://picsum.photos/id/229/200/200" alt="" class="w-100 mb-2">
+                    <div>Bubble Game</div>
+                </div>
+              </div>
+              <div  class="col-12 col-sm-6 col-md-4 ">
+                <div class="bg-black  mb-3  text-center services-con ">
+                    <img src="images/project/1.jpg" alt="" class="w-100 mb-2">
+                    <div>Mag Magnet</div>
+                </div>
+              </div>
+            </div>                                   
         </div>
     </section>
-    <footer class="w-90 mx-auto  pt-5 middle-bg">
+    <footer class="w-90 mx-auto  lg:pt-5 middle-bg">
             <div class="my-services mx-auto font-14 py-2">
                 <p class="awe-ser">
                     CONTACT ME
                 </p>
-                <p class="awe-para">
+                <p class="text-white fw-bold letter-spacing-1 line-height-1-5">
                     Get in touch with me
                 </p>
-                <div class="d-flex  justify-content-between">
-                    <div class="footer-left text-white w-50 font-14">
+                <div class="container">
+                    <div class="row text-white py-4">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <div class="footer-left font-14">
+                                <div class="my-2">
+                                    <i class="fa-solid fa-location-dot main-color"></i>
+                                    <span class="ms-2">Gandhi Nagar, Jaipur</span>
+                                </div>
+                                <div class="my-2">
+                                    <i class="fa-solid fa-phone main-color"></i>
+                                    <span class="ms-1">+91 (022) 110 10 10</span>
+                                </div>
+                                <div class="my-2">
+                                    <i class="fa-solid fa-envelope main-color"></i>
+                                    <span class="ms-1">info@example.com</span>
+                                </div>
+                                <div class="my-2">
+                                    <i class="fa-brands fa-twitter main-color"></i>
+                                    <span class="ms-1">@dhruvsinghsirohiya</span>
+                                </div>
+                                <div class="my-2">
+                                    <i class="fa-brands fa-facebook-f main-color"></i>
+                                    <span class="ms-2">@dhruvsinghsirohiya</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-right">
+                                <form action="">
+                                    <div class="d-flex footer-inp justify-content-between">
+                                        <input  type="text" name="" placeholder="Your Name" id="">
+                                        <input type="text" name="" placeholder="Your Email" id="">
+                                    </div>
+                                    <textarea name="" class="w-100 mt-5 bg-transparent" id="" cols="30" placeholder="Your Message"></textarea>
+                                    <button class="text-dark">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="d-md-flex  justify-content-between">
+                    <div class="footer-left text-white w-md-50 font-14">
                         <div class="my-2">
                             <i class="fa-solid fa-location-dot main-color"></i>
-                            <span class="ms-2">Ave Street 29, Los Angeles, USA</span>
+                            <span class="ms-2">Gandhi Nagar, Jaipur</span>
                         </div>
                         <div class="my-2">
                             <i class="fa-solid fa-phone main-color"></i>
-                            <span class="ms-1">+44 (022) 110 10 10</span>
+                            <span class="ms-1">+91 (022) 110 10 10</span>
                         </div>
                         <div class="my-2">
                             <i class="fa-solid fa-envelope main-color"></i>
@@ -150,7 +216,7 @@
                             <span class="ms-2">@dhruvsinghsirohiya</span>
                         </div>
                     </div>
-                    <div class="footer-right w-50">
+                    <div class="footer-right w-md-50">
                         <form action="">
                             <div class="d-flex footer-inp justify-content-between">
                                 <input  type="text" name="" placeholder="Your Name" id="">
@@ -160,7 +226,7 @@
                             <button class="">Send</button>
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="bg-black mt-5 d-flex justify-content-between py-2">
                 <div class="copyright-font ms-1">
