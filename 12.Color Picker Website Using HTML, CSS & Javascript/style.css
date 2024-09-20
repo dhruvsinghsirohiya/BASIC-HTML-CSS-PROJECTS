@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+.box{
+    width:295px;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-left: 5px black solid;
+    animation: 1s circle infinite linear;
+}
+
+@keyframes circle {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+#input{
+    width: 300px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+}
