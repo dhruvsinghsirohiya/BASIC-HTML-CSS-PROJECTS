@@ -20,6 +20,7 @@ body{
 .container img{
     height: 260px;
     width: 330px;
+    cursor: pointer;
     transform: scale(1);
     border-radius: 20px;
     margin: 6px 10px;
